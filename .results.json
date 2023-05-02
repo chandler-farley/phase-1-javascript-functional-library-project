@@ -5,9 +5,9 @@
     "passes": 27,
     "pending": 0,
     "failures": 0,
-    "start": "2023-04-27T18:09:43.416Z",
-    "end": "2023-04-27T18:09:43.632Z",
-    "duration": 216
+    "start": "2023-05-02T18:22:42.324Z",
+    "end": "2023-05-02T18:22:42.553Z",
+    "duration": 229
   },
   "tests": [
     {
@@ -62,7 +62,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -90,7 +90,7 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myReduce does not modify the original object",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -255,7 +255,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -283,7 +283,7 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myReduce does not modify the original object",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },

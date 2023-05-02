@@ -62,8 +62,15 @@ function myFirst(array, n = 0) {
     return n === 0 ? array[n] : array.slice(0, n)
 }
 
-function myLast(array, n = -1) {
-    return n === -1 ? array.at(n) : array.slice(-Math.abs(n), array.length)
+// function myLast(array, n = -1) {
+//     return n === -1 ? array.at(n) : array.slice(-Math.abs(n), array.length)
+// }
+
+function myLast(array, n) {
+    if (!n || n >= array.length) {
+        return array[array.length - 1]
+    }
+    return array.slice(-n)
 }
 
 function myKeys(obj) {
